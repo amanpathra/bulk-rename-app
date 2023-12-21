@@ -1,10 +1,10 @@
 const fs = require('fs');
-const path = require('path')
+const path = require('path');
 
-const replaceThis = 'jay'
-const replaceWith = 'aman'
+const replaceThis = 'jay';
+const replaceWith = 'aman';
 
-const preview = false
+const preview = false;
 
 try {
   const data = fs.readdir(path.join(__dirname, "/"), (err, data) => {
